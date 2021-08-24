@@ -1,5 +1,31 @@
+@use './foundation/_reset' as *;
 @use './foundation/_define' as *;
 
-h1 {
+.l-header {
   color: $color-main;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.l-footer {
+  color: #999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  font-size: 1.2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.l-copy {
+
 }
