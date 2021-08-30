@@ -3,7 +3,7 @@
 
 // layout
 .l-header {
-  color: $color-main;
+  color: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,6 +13,7 @@
   font-weight: bold;
   text-align: center;
   box-sizing: border-box;
+  text-shadow: -1px -1px 1px #666, 0 0 2px #111;
 }
 
 .l-footer {
@@ -26,13 +27,23 @@
   padding: 1em;
   font-size: 1.2rem;
   text-align: center;
+  text-shadow: -1px -1px 1px #fff;
+}
+
+// fill-available
+.c-fv {
+  height: 100vh;
+  max-height: 100%;
+  max-height: -webkit-fill-available;
+  background: url(../img/bg.jpg);
+  background-size: cover;
 }
 
 // component
-.c-fv {
+.c-fvText {
   font-size: 1.6rem;
   padding: 5em 2em;
-  background: rgba(red, 0.1);
+  color: #fff;
 }
 
 .c-contents {
@@ -40,14 +51,4 @@
   font-size: 1.6rem;
   padding: 5em 2em;
   background: rgba(yellow, 0.1);
-}
-
-// fill-available
-html {
-  height: -webkit-fill-available;
-}
-
-.c-fv {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
 }
