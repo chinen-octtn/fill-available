@@ -2,6 +2,11 @@
 
 2021年8月末時点
 
+```
+height: 100vh;
+max-height: -webkit-fill-available; // iOS用
+```
+
 ## SmartPhone
 
 * iOS Safari・・・OK
