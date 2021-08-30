@@ -1,8 +1,8 @@
 {
-  "url": "https://example.com",
-  "name": "サイト名",
+  "url": "https://chinen-octtn.github.io",
+  "name": "chinen-octtnのGitHub",
   "viewport": "width=device-width",
-  "description": "サイトの概要",
+  "description": "-webkit-fill-availableの挙動を確認するためのDemoページ",
   "keywords": "",
   "lang": "ja",
   "locale": "ja_JP",
@@ -11,9 +11,9 @@
   "fbAdmins": "",
   "twitterCard": "summary_large_image",
   "twitterSite": "",
-  "/": {
-    "name": "トップページ",
-    "description": "トップページの概要",
+  "/fill-available/": {
+    "name": "-webkit-fill-availableの検証",
+    "description": "-webkit-fill-availableの挙動を確認するためのDemoページ",
     "keywords": "",
     "ogp": "",
     "canonical": "",
